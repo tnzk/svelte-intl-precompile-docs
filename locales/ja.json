@@ -81,7 +81,7 @@
   "getting-started.paragraph.create-translations-3": "JSON形式のファイルを推奨しますが、デフォルトエクスポートを持つJavaScriptファイルを使うこともできます。ファイル形式がどちらの場合でも、それらに含まれる翻訳はICUメッセージ文法の通常の文字列となります。",
   "getting-started.paragraph.create-translations-4": "作者は上記のようなフラットな辞書構造が好みですが、複数の階層を含む辞書構造を使って翻訳ファイルを定義しても構いません:",
   "getting-started.subsection.hook-into-sveltekit": "コンパイラを SvelteKit にフックする",
-  "getting-started.paragraph.hook-into-sveltekit-1": "このライブラリのコンパイラはビルド時に動作するため、開発中のアプリのビルドパイプラインにフックする必要があります。<code class=\"bg-code px-2\">{path}</code>の vite プラグインのリストに追加してください:",
+  "getting-started.paragraph.hook-into-sveltekit-1": "このライブラリのコンパイラはビルド時に動作するため、開発中のアプリのビルドパイプラインにフックする必要があります。<code class='bg-code px-2'>{path}</code>の vite プラグインのリストに追加してください:",
   "getting-started.paragraph.hook-into-sveltekit-2": "準備は完了です。ライブラリを使ってみましょう。",
   "getting-started.subsection.hook-into-vite": "Vite.js プロジェクトにコンパイラをフックする",
   "getting-started.paragraph.hook-into-vite-1": "SvelteKit を使わずに Vite.js を直接使用している場合も、設定はほとんど同様です。 SvelteKit が舞台裏では Vite.js を使用してるためです。コンパイラをインポートして、<code class=\"bg-code px-2\">{path}</code>のプラグインのリストに渡してください:",
