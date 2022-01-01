@@ -65,12 +65,6 @@ addMessages('es', es);
   {$t('configuration.paragraph.dynamic-locales-5')}
 </p>
 
-<p>
-	{$t('configuration.paragraph.dynamic-locales-4')} <CodeInline>preload</CodeInline> 
-  {$t('configuration.paragraph.dynamic-locales-5')}
-</p>
-
-
 <Codeblock lang="js">{`
 import { init, register, waitLocale } from 'svelte-intl-precompile';
 register('en', () => import('$locales/en.js'));
